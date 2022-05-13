@@ -1,6 +1,6 @@
 :root {
-	--primary-font-family: 'Roboto', sans-serif;
-	--secondary-font-family: 'Raleway', sans-serif;
+	--primary-font-family: 'Roboto', Verdana, Tahoma,sans-serif;
+	--secondary-font-family: 'Raleway', Verdana, Tahoma, sans-serif;
 	--primary-text-color: #757575;
 	--secondary-text-color: #212121;
 	--primary-white-color: #FFFFFF;
@@ -90,6 +90,10 @@ body {
 /* =============== /HEADER =============== */
 
 /* =============== HERO =============== */
+.hero{
+	background-color: #2F303A;
+}
+
 .main-title {
 	font-weight: 900;
 	font-size: 44px;
@@ -97,7 +101,7 @@ body {
 	text-align: center;
 	letter-spacing: 0.06em;
 	text-transform: uppercase;
-	/* color: var(--primary-white-color); */
+	color: var(--primary-white-color);
 }
 
 .modal-btn {
@@ -111,7 +115,6 @@ body {
 	color: var(--primary-white-color);
 	background-color: var(--background-color);
 	cursor: pointer;
-
 }
 /* =============== /HERO =============== */
 
@@ -126,7 +129,6 @@ body {
 }
 
 .advantages-list-description {
-	font-weight: 400;
 	font-size: 14px;
 	line-height: 1.71;
 	letter-spacing: 0.03em;
@@ -143,7 +145,6 @@ body {
 	color: var(--secondary-text-color);
 }
 .employees-position{
-	font-weight: 400;
 	font-size: 16px;
 	line-height: 1.19;
 	text-align: center;
@@ -181,7 +182,6 @@ cursor: pointer;
 }
 
 .works-list-type{
-	font-weight: 400;
 	font-size: 16px;
 	line-height: 1.88;
 	letter-spacing: 0.03em;
@@ -207,7 +207,6 @@ cursor: pointer;
 
 .address-link{
 	font-style: normal;
-	font-weight: 400;
 	font-size: 14px;
 	line-height: 1.71;
 	letter-spacing: 0.03em;
@@ -220,7 +219,6 @@ cursor: pointer;
 }
 .contacts-list-link{
 	font-style: normal;
-	font-weight: 400;
 	font-size: 14px;
 	line-height: 1.71;
 	letter-spacing: 0.03em;
